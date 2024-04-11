@@ -11,7 +11,7 @@ const App = () => {
         <section className="flex flex-col min-h-screen justify-center items-center p-4 space-y-8">
 
           <div className="logo flex justify-center items-center space-x-2 my-8 ">
-            <img src={hifi} />
+            <img src={hifi} alt="logo" />
             <p className="text-[35px] font-bold text-light-blueish-gray">pod</p>
           </div>
           <div className="content flex flex-col">
@@ -26,11 +26,11 @@ const App = () => {
                 Podcasts, Pocket Casts and more!
               </p>
             </div>
-            <div className="flex items-center justify-between my-8">
-              <img src={spotify} />
-              <img src={applePodcast} />
-              <img src={googlePodcast} />
-              <img src={pocketCast} />
+            <div className="flex items-center justify-between my-8 md:order-last md:justify-normal md:space-x-14 ">
+              <img src={spotify} alt="spotify icon"/>
+              <img src={applePodcast} alt="apple podcast icon" />
+              <img src={googlePodcast} alt="google podcast icon"/>
+              <img src={pocketCast} alt="pocket cast icon"/>
             </div>
             <div>
               <form>
