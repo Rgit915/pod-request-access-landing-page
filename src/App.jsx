@@ -45,7 +45,7 @@ const App = () => {
                   <p className="error text-red p-2" id="error"></p>
                   <button
                     type="submit"
-                    className="absolute rounded-3xl bg-light-green p-2 w-full font-bold mb-10 md:top-0 md:right-0 md:left-[60%] md:w-[40%]"
+                    className=" rounded-3xl bg-light-green p-2 w-full font-bold mb-10 md:absolute md:top-0 md:right-0 md:left-[60%] md:w-[40%]"
                   >
                     Request Access
                   </button>
