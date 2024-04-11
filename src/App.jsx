@@ -1,43 +1,62 @@
-import { PiApplePodcastsLogoFill } from "react-icons/pi";
-import { SiGooglepodcasts } from "react-icons/si";
-import { FaSpotify } from "react-icons/fa";
-import { SiPocketcasts } from "react-icons/si";
+import hifi from "./assets/images/Hifi.png";
+import spotify from "./assets/images/Spotify_logo_with_text.png";
+import applePodcast from "./assets/images/Apple_Podcast.png";
+import googlePodcast from "./assets/images/google_podcast.png";
+import pocketCast from "./assets/images/pocket_cast.png";
 
 const App = () => {
   return (
     <>
       <main>
-        <section>
-          <div className="logo"></div>
-          <div className="content">
-            <div>
-              <h1>
-                Publish your podcasts <span>everywhere.</span>
+        <section className="flex flex-col min-h-screen justify-center items-center p-4 space-y-8">
+
+          <div className="logo flex justify-center items-center space-x-2 my-8 ">
+            <img src={hifi} />
+            <p className="text-[35px] font-bold text-light-blueish-gray">pod</p>
+          </div>
+          <div className="content flex flex-col">
+            <div className="text-center">
+              <h1 className="text-[26px] uppercase text-light-green mb-8">
+                Publish your podcasts{" "}
+                <span className="text-light-blueish-gray">everywhere.</span>
               </h1>
-              <p>
+              <p className="text-light-blueish-gray">
                 Upload your audio to Pad with a single click. We'll then
-                distribute your podcasts to spotify. Apple Podcasts, Goggle
+                distribute your podcasts to spotify. Apple Podcasts, Google
                 Podcasts, Pocket Casts and more!
               </p>
             </div>
-            <div>
-              {" "}
-              <FaSpotify />
-              <PiApplePodcastsLogoFill />
-              <SiGooglepodcasts />
-              <SiPocketcasts />
+            <div className="flex items-center justify-between my-8">
+              <img src={spotify} />
+              <img src={applePodcast} />
+              <img src={googlePodcast} />
+              <img src={pocketCast} />
             </div>
             <div>
               <form>
-                <div>
-                  <input type="email" name="email" id="email" placeholder="Email address"/>
-                  <button type="submit">Request Access</button>
+                <div className="flex flex-col justify-center items-center space-y-4">
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="Email address"
+                    className="rounded-3xl border-none text-white font-bold bg-dark-blueish-gray px-4 py-2 w-full"
+                  />
+                  <p className="error text-red p-2" id="error"></p>
+                  <button
+                    type="submit"
+                    className="absolute rounded-3xl bg-light-green p-2 w-full font-bold mb-10 md:top-0 md:right-0 md:left-[60%] md:w-[40%]"
+                  >
+                    Request Access
+                  </button>
                 </div>
               </form>
             </div>
+
           </div>
-          <div></div>
+
         </section>
+
       </main>
     </>
   );
