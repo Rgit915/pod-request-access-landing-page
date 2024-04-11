@@ -30,19 +30,49 @@
   }
 
   .content {
-    @apply flex absolute bg-dark-midnight-blue  ml-12 mt-24 mr-32 p-2
+    @apply flex absolute bg-dark-midnight-blue  ml-12 mt-24 mr-32 p-4
     }
 
   h1 {
-    @apply text-[48px] leading-10 text-left;
+    @apply text-[48px] leading-10 text-left mr-14;
   }
   p {
-    @apply w-[75%] font-[18px] leading-7 text-left;
+    @apply w-[75%] font-[18px] leading-7 text-left ;
   }
   form {
-    @apply relative w-[75%]
+    @apply relative w-[75%] mt-8;
   }
  button{
   @apply !mt-0
  }
+
+}
+
+
+@screen lg{
+  /* Styles for Desktop (1024px and above) screens */
+  body{
+    @apply py-36 px-40;
+  }
+  body::before {
+    @apply top-[140px] bottom-[120px] left-[60%]  bg-[url('./assets/images/tablet-person-image.png')]
+  }
+
+  body::after{
+    @apply absolute right-0 top-[85%];
+  }
+  main{
+    @apply w-[60%]
+  }
+  
+  h1{
+    @apply text-[52px] leading-[62px]
+  }
+
+  p {
+    @apply block  ;
+  }
+  .logo{
+    @apply my-24
+  }
 }
