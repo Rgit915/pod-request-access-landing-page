@@ -23,56 +23,64 @@
     @apply top-0 left-[40%] right-0 opacity-100 bg-[url('./assets/images/tablet-person-image.png')];
   }
   body::after {
-    @apply content-[''] w-[230px] h-[100px] bg-[url('./assets/images/dot-grid.png')] block;
+    @apply content-[''] mt-28 ml-24 w-[200px] h-[100px] bg-[url('./assets/images/dot-grid.png')] block;
   }
-  .logo{
-    @apply z-10 top-0 left-0 absolute m-12 ;
+  .logo {
+    @apply z-10 top-0 left-0 absolute ml-28;
   }
 
   .content {
-    @apply flex absolute bg-dark-midnight-blue  ml-12 mt-24 mr-32 p-4
-    }
-
+    @apply flex absolute bg-dark-midnight-blue top-[258px] px-[20px] py-[60px] mx-[100px] ;
+  }
   h1 {
     @apply text-[48px] leading-10 text-left mr-14;
   }
   p {
-    @apply w-[75%] font-[18px] leading-7 text-left ;
+    @apply w-[75%] font-[18px] leading-7 text-left;
   }
   form {
     @apply relative w-[75%] mt-8;
   }
- button{
-  @apply !mt-0
- }
-
+  button {
+    @apply !mt-0;
+  }
 }
 
-
-@screen lg{
+@screen lg {
   /* Styles for Desktop (1024px and above) screens */
-  body{
-    @apply py-36 px-40;
+  body {
+    @apply py-36 p-40;
   }
   body::before {
-    @apply top-[140px] bottom-[120px] left-[60%]  bg-[url('./assets/images/tablet-person-image.png')]
+    @apply top-[140px] bottom-[120px] left-[60%]  bg-[url('./assets/images/tablet-person-image.png')];
   }
 
-  body::after{
-    @apply absolute right-0 top-[85%];
+  body::after {
+    @apply absolute right-0 bottom-0 top-[85%];
   }
-  main{
-    @apply w-[60%]
+  main {
+    @apply w-[60%];
   }
-  
-  h1{
-    @apply text-[52px] leading-[62px]
+  h1 {
+    @apply text-[52px] leading-[62px];
   }
 
   p {
-    @apply block  ;
+    @apply block;
   }
-  .logo{
-    @apply my-24
+  .logo {
+    @apply my-24;
   }
+}
+
+@screen xl{
+
+  body{
+    @apply py-48
+  }
+
+  .content {
+    @apply flex absolute bg-dark-midnight-blue top-[261px] bottom-[60px] right-[430px] px-[40px] py-[80px] my-[100px] mr-[50px] ml-[100px] ;
+  }
+
 }
