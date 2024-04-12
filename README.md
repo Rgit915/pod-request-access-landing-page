@@ -34,7 +34,7 @@ Users should be able to:
 
 ![Tablet Preview](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/tablet-preview-solution.png)
 
-![Desktop Preview](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/desktop-preview-solution.png)
+![Desktop Preview with active states](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/active-states-preview-solution.png)
 
 
 ### Links
