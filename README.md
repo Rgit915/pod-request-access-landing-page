@@ -1,4 +1,4 @@
-# Frontend Mentor - Blog preview card solution
+# Frontend Mentor - Pod Request Access Landing Page
 
 This is a solution to the [Pod Request challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/pod-request-access-landing-page-eyTmdkLSG) by Women Who Code for Frontend Friday Task#003 challenge.
 
