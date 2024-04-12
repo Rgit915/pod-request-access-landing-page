@@ -29,6 +29,19 @@ Users should be able to:
  - View the optimal layout depending on their device's screen size
  - See hover states for interactive elements
 
+### Screenshot
+![Mobile Preview](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/mobile-preview-solution.png)
+
+![Tablet Preview](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/tablet-preview-solution.png)
+
+![Desktop Preview](https://github.com/Rgit915/pod-request-access-landing-page/blob/master/src/assets/images/desktop-preview-solution.png)
+
+
+### Links
+
+- Live Site URL: [Pod Request Access landing Page](https://pod-request-access-landing-page-rora.netlify.app/)
+
+
 ## My process
 To tackle this challenge, I relied on React to create the interface components, Tailwind CSS for styling to match the design, and Formik for handling form validation and error messages. While I successfully implemented the basics, there's a need to refine the layout further to ensure it looks good and works seamlessly across different devices and screen sizes. Overall, using these tools made the process smoother and more user-friendly, but there's always room for enhancements to optimize the user experience.
 
